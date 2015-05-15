@@ -1,0 +1,46 @@
+
+
+	html, body {
+
+		height:100%;
+
+	}
+
+
+	[id="backgroundCarousel"].carousel,
+	[id="backgroundCarousel"] .item,
+	[id="backgroundCarousel"] .active {
+
+		height:100%;
+
+	}
+
+
+	[id="backgroundCarousel"] .carousel-inner {
+
+		height:100%;
+		background: #6b8ca4;
+
+	}
+
+
+	.my [id="backgroundCarousel"] .carousel-inner .item img {
+
+		width: auto;
+		min-height: 100%;
+		max-width: 100%;
+		height: auto;
+		position: absolute;
+		/* bottom: 0; */
+
+	}
+
+
+	@media (max-width: 1000px) {
+
+		.my [id="backgroundCarousel"] .carousel-inner .item img {
+			max-width: 1000px;
+			height: auto;
+		}
+
+	}

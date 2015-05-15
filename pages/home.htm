@@ -1,0 +1,38 @@
+title = "HalmiSpace :: Kreatívny Coworking Košice"
+url = "/"
+layout = "halmi"
+description = "HalmiSpace nájdeš medzi vysokými múrmi mestského paláca Halmiho dvor. Spoznáš nás podľa originálnej kaviarne HalmiCaffe, ktorá je miestom nášho neformálneho networkingu."
+hidden = "0"
+==
+{% put backgroundCarousel %}
+<div class="item active">
+    <img src="{{'assets/images/background_1.jpg'|theme}}" class="img-responsive" />
+</div
+<div class="item">
+    <img src="{{'assets/images/background_2.jpg'|theme}}" class="img-responsive" />
+</div>
+<div class="item">
+    <img src="{{'assets/images/background_1.jpg'|theme}}" class="img-responsive" />
+</div>
+{% endput %}
+
+
+<h1>Kreatívny Coworking</h1>
+
+<hr/>
+
+<p id="description">
+    Príď si vyskúšať nový coworkingový space v srdci Košíc. Čaká tu na teba rýchly internet, zaujímavé eventy, skvelí ľudia, množstvo inšpirácie a produktívnejšia práca na svojich projektoch. Tak príd inšpirovať aj ty nás!
+</p>
+
+<a data-toggle="modal" data-target="#ponuka" href="#" id="try">Vyskúšaj týždeň zadarmo</a>
+
+{% partial "mobile-home" %}
+
+<strong class="partners">— Partneri —</strong>
+
+<div class="partners">
+	<a id="albatrosmedia" target="_blank" href="http://www.albatrosmedia.sk">Albatrosmedia</a>
+	<a id="premiumhosting" target="_blank" href="http://www.premiumhosting.sk">PremiumHosting</a>
+	<a id="indievisual" target="_blank" href="http://www.indievisual.sk">Indievisual</a>
+</div>

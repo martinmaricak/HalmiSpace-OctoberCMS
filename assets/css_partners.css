@@ -1,0 +1,164 @@
+
+
+
+	.my [id="partnersCarousel"] {
+
+		width: 422px;
+
+	}
+
+
+	.my [id="partnersDescr"] {
+
+		width: 422px;
+		float: right;
+		background: white;
+		padding: 41px 36px;
+
+	}
+
+
+	[id="ponuka"] {
+
+		height: 100%;
+
+	}
+
+
+	.my [id="ponuka"] .modal-dialog {
+
+		width: 846px;
+		overflow: hidden;
+		height: 424px;
+		top: 50%;
+		margin-top: -232px;
+
+	}
+
+
+	[id="ponuka"] h2 {
+
+		color: #0b6099;
+		font-weight: 300;
+		margin: -4px 0 26px 6px;
+
+	}
+
+
+	[id="ponuka"] input[type="email"],
+	[id="ponuka"] input[type="text"] {
+
+		margin: 7px;
+		border: 1px solid #7f8589;
+		font-size: 14px;
+		padding: 8px 16px;
+		width: 94%;
+
+	}
+
+
+	[id="ponuka"] label {
+
+		color: rgba(44, 44, 44, 0.6);
+		font-size: 12px;
+		font-style: italic;
+		display: inline-block;
+		opacity: 0.6;
+		font-weight: 400;
+		max-width: 178px;
+		line-height: 15px;
+		margin-top: 44px;
+		position: relative;
+		top: 7px;
+		left: 5px;
+		margin-right: 10px;
+
+	}
+
+
+	[id="ponuka"] button {
+
+		border: 2px solid #2677b4;
+		background: transparent;
+		color: #2677b4;
+		font-weight: 300;
+		font-size: 13px;
+		padding: 12px 28px;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id="ponuka"] button:hover {
+
+		border-color: #19527f;
+		background-color: #19527f;
+		opacity: 0.8;
+		color: white;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id="ponuka"] .carousel-indicators li {
+
+		width: 8px;
+		height: 8px;
+		opacity: 0.7;
+
+	}
+
+
+	[id="ponuka"] .carousel-caption {
+
+		color: rgba(255, 255, 255, 0.89);
+		font-size: 14px;
+
+	}
+
+
+	[id="ponuka"] [class~="persona"] {
+
+		margin-top: 35px;
+		text-transform: uppercase;
+
+	}
+
+
+	[id="ponuka"] [class~="text"] {
+
+		font-size: 16px;
+		width: 332px;
+		position: relative;
+		left: -37px;
+		top: -44px;
+
+	}
+
+
+	[id="partnersDescr"] [id="events1"],
+	[id="partnersDescr"] [id="events2"] {
+
+		margin-left: 8px;
+
+	}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+
+
+
+
+	[id="cennik"] {
+
+		height: 100%;
+
+	}
+
+
+	.my [id="cennik"] .modal-dialog {
+
+		width: 869px;
+		overflow: visible;
+		height: 424px;
+		background-color: transparent;
+		box-shadow: none;
+		border: 0;
+		padding: 0 0 0 12px;
+		background-position: 0;
+		background-repeat: no-repeat;
+		background-image: url("./images/pricing.png");
+		background-size: 100% 436px;
+		top: 50%;
+		margin-top: -222px;
+
+	}
+
+
+	[id="cennik"] [class~="box"] {
+
+		text-align: center;
+		width: 271px;
+		float: left;
+		padding: 23px 31px;
+		margin-left: 0;
+		font-size: 13px;
+		margin-top: 23px;
+
+	}
+
+
+	[id="cennik"] h3 {
+
+		text-align: center;
+		color: #0b6099;
+		font-size: 32px;
+		font-weight: 300;
+		margin-top: 7px;
+
+	}
+
+
+	[id="cennik"] [class~="desc"] {
+
+		color: #9a9a9a;
+		font-size: 13px;
+		text-align: center;
+		display: block;
+		text-transform: uppercase;
+
+	}
+
+
+	[id="cennik"] hr {
+
+		max-width: 84px;
+		border-color: rgba(255, 255, 255, 0.55);
+		display: block;
+		width: 28px;
+		border-color: #cccccc;
+		margin: 14px auto 26px;
+
+	}
+
+
+	[id="cennik"] [class~="benefits"] {
+
+		color: #2c2c2c;
+		font-size: 13px;
+		line-height: 26px;
+
+	}
+
+
+	[id="cennik"] [class~="basic"] button {
+		margin-top: 45px;
+	}
+
+
+	[id="cennik"] button {
+
+		float: left;
+		background-color: transparent;
+		border: 2px solid #2677b4;
+		display: block;
+		width: 100%;
+		margin: 17px auto 0;
+		color: #2677b4;
+		padding: 10px 0;
+		font-weight: 600;
+		text-transform: uppercase;
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id="cennik"] a {
+
+		color: inherit;
+		text-decoration: underline;
+
+	}
+
+
+	[id="cennik"] button:hover {
+
+		border-color: #19527f;
+		background-color: #19527f;
+		opacity: 0.8;
+		color: white;
+
+
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-ms-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+
+	}
+
+
+	[id="cennik"] [class~="basic"] {
+
+		width: 271px;
+
+	}
+
+
+	[id="cennik"] [class~="standard"] {
+
+		width: 300px;
+
+	}
+
+
+	[id="cennik"] [class~="premium"] {
+
+		width: 271px;
+
+	}
+
+
+	[id="cennik"] [class~="standard"] button {
+
+		margin-top: 46px;
+
+	}
+
+
+	[id="cennik"] [class~="more-offer"] {
+
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 14px;
+		font-style: italic;
+		position: relative;
+		top: 63px;
+		text-align: center;
+		z-index: -1;
+		overflow: hidden;
+		clear: both;
+
+	}

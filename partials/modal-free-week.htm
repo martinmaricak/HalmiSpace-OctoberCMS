@@ -1,0 +1,26 @@
+<div class="modal fade" id="ponuka" tabindex="-1">
+    <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&nbsp;</span>
+    </button>
+
+    <article class="modal-dialog modal-content">
+        <aside id="partnersCarousel" class="carousel slide ">
+            <ol class="carousel-indicators">
+                <li data-target="#partnersCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#partnersCarousel" data-slide-to="1"></li>
+                <li data-target="#partnersCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                {% partial "carusel-partners" %}
+            </div>
+        </aside>
+
+        <div id="partnersDescr">
+            {% partial "form-free-week-thanks-message" %}
+            <form>
+                {% partial "form-free-week" %}
+            </form>
+        </div>
+    </article>
+</div>

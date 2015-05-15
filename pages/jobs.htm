@@ -1,0 +1,31 @@
+title = "HalmiSpace :: Pracovné ponuky v Halmiho dvore"
+url = "/pracovne-ponuky"
+layout = "halmi"
+description = "HalmiSpace nájdeš medzi vysokými múrmi mestského paláca Halmiho dvor. Spoznáš nás podľa originálnej kaviarne HalmiCaffe, ktorá je miestom nášho neformálneho networkingu."
+hidden = "0"
+
+[blogPosts jobs]
+pageNumber = "{{ :page }}"
+categoryFilter = "jobs"
+postsPerPage = "10"
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "jobs"
+postPage = "jobs"
+==
+{% put head %}
+    <link rel="stylesheet" href="{{ 'assets/css_jobs.css'|theme }}" />
+{% endput %}
+
+
+<h1>Pracovné ponuky v Halmi tíme</h1>
+
+<hr/>
+
+<p id="description">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodbr <br>
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+</p>
+
+{% component "jobs" %}

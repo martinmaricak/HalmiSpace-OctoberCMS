@@ -1,0 +1,120 @@
+.jobs {
+    display: block;
+    max-width: 1000px;
+    margin: 160px auto 80px;
+    background-color: #f8f7f5;
+}
+
+.job {
+    width: 50%;
+    float: left;
+    padding: 80px;
+    text-align: center;
+}
+
+.job:nth-child(even) {
+    background-color: #fff;
+}
+
+.job__title {
+	color: #0b6099;
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 7px;
+}
+
+.job__excerpt {
+
+	color: #9a9a9a;
+	font-size: 13px;
+	display: block;
+	text-transform: uppercase;
+
+}
+
+
+.job__line {
+
+	max-width: 84px;
+	border-color: rgba(255, 255, 255, 0.55);
+	display: block;
+	width: 28px;
+	border-color: #cccccc;
+	margin: 14px auto 26px;
+
+}
+
+
+.job__content {
+
+    display: block;
+	color: #2c2c2c;
+	font-size: 13px;
+	line-height: 26px;
+
+}
+
+.job__contact {
+
+	background-color: transparent;
+	border: 2px solid #2677b4;
+	display: inline-block;
+	width: auto;
+    font-size: 14px;
+	margin: 17px auto 0;
+	color: #2677b4;
+	padding: 10px 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+}
+
+
+.job__contact:hover {
+
+	border-color: #19527f;
+	background-color: #19527f;
+	opacity: 0.8;
+	color: white;
+	text-decoration: none;
+
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+}
+
+
+/* Zig Zag */
+.zig-zag > *:nth-child(3),
+.zig-zag > *:nth-child(7),
+.zig-zag > *:nth-child(11),
+.zig-zag > *:nth-child(15) {
+    float: right;
+}
+
+
+
+/* Disable carousel and set cover background image to give us back the scroll functionality. */
+
+#backgroundCarousel, .bordered {
+    display: none;
+}
+
+html {
+    overflow: inherit;
+}
+
+body {
+    background: url('./images/background_4.jpg') center center no-repeat fixed;
+    background-size: cover;
+}

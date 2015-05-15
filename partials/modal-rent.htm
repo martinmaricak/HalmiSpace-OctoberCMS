@@ -1,0 +1,31 @@
+<div class="modal fade boxes" id="prenajom" tabindex="-1">
+
+    <article class="modal-dialog modal-content">
+
+        <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&nbsp;</span>
+        </button>
+
+        <div class="basic box">
+            {% content "rent-small-event-room" %}
+            <a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+        </div>
+
+        <div class="standard box">
+            {% content "rent-meeting-room" %}
+            <a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+            <a class="by-phone" href="tel:+421903710671">Alebo telefonicky na: +421 903 710 671</a>
+        </div>
+
+        <div class="premium box">
+            {% content "rent-big-event-room" %}
+            <a href="mailto:rent@halmispace.sk" class="btn">Rezervácia emailom</a>
+        </div>
+
+        <p class="more-offer">
+            {% content "rent-bottom-text" %}
+        </p>
+
+    </article>
+
+</div>  

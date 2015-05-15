@@ -1,0 +1,22 @@
+==
+{% set posts = __SELF__.posts %}
+
+
+<secction class="jobs zig-zag clearfix">
+    {% for post in posts %}
+    <article class="job">
+        <h3 class="job__title">{{ post.title }}</h3>
+        {% if post.excerpt %}
+        <span class="job__excerpt">{{ post.jobDetails.subheading }}</span>
+        {% endif %}
+
+        <hr class="job__line" />
+
+        <span class="job__content">
+            {{ post.content_html|raw }}
+        </span>
+
+        <a href="mailto:pracasnov@halmicaffe.sk?subject={{ post.jobDetails.subject_line }}" class="job__contact">{{ post.jobDetails.cta_button|default('Kontaktuj nás') }}</a>
+    </article>
+    {% endfor %}
+</secction>
