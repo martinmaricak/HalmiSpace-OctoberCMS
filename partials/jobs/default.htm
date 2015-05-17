@@ -6,7 +6,7 @@
     {% for post in posts %}
     <article class="job">
         <h3 class="job__title">{{ post.title }}</h3>
-        {% if post.excerpt %}
+        {% if post.jobDetails.subheading %}
         <span class="job__excerpt">{{ post.jobDetails.subheading }}</span>
         {% endif %}
 
